@@ -1,6 +1,4 @@
 {
-    "container-runtime": "containerd",
-    "dashboard": true,
     "disk-size": "10GB",
     "insecure-registry": "192.168.0.0/24",
     "kubernetes-version": "1.17.1",
