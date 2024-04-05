@@ -1,1 +1,1 @@
-type $env:USERPROFILE\.ssh\id_rsa.pub | ssh root@10.111.2.72 "cat >> .ssh/authorized_keys"
+type %USERPROFILE%\.ssh\id_rsa.pub | ssh root@10.111.2.72 "cat >> .ssh/authorized_keys"
